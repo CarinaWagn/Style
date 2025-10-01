@@ -93,7 +93,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     borderRadius: 20,
     padding: 22,
-    maxWidth: 420,
+    maxWidth: 600,
     width: '100%',
     alignSelf: 'center',
     marginVertical: 22,
@@ -115,9 +115,9 @@ const styles = StyleSheet.create({
     width: '100%',
   },
   avatar: {
-    width: 82,
-    height: 82,
-    borderRadius: 41,
+    width: 100,
+    height: 100,
+    borderRadius: 50,
     backgroundColor: '#b2f1b3ff',
     marginBottom: 10,
   },
@@ -142,12 +142,13 @@ const styles = StyleSheet.create({
     marginBottom: 4,
   },
   chipContainer: {
-    flexDirection: 'row',
+    flexDirection: 'column',
     flexWrap: 'wrap',
     gap: 10,
     marginTop: 12,
     justifyContent: 'center',
     width: '100%',
+    backgroundColor:"#7cc9d1ff"
   },
   chip: {
     minWidth: 100,
