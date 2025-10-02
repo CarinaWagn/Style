@@ -87,6 +87,7 @@ const styles = StyleSheet.create({
     maxWidth: 600,
     width: '100%',
     alignSelf: 'center',
+    alignItems: 'center',
     marginVertical: 22,
   },
   cardNarrow: {
@@ -96,6 +97,7 @@ const styles = StyleSheet.create({
     maxWidth: 600,
     width: '100%',
     alignSelf: 'center',
+    alignItems: 'center',
     marginVertical: 22,
   },
   cardShadowIOS: {
@@ -142,13 +144,17 @@ const styles = StyleSheet.create({
     marginBottom: 4,
   },
   chipContainer: {
+    display:"flex",
+    flex: 1,
     flexDirection: 'column',
-    flexWrap: 'wrap',
+    // flexWrap: 'wrap',
     gap: 10,
     marginTop: 12,
     justifyContent: 'center',
+    alignItems: 'center',
     width: '100%',
-    backgroundColor:"#7cc9d1ff"
+    borderRadius: 19,
+   backgroundColor:"#7cc9d1ff"
   },
   chip: {
     minWidth: 100,
@@ -162,5 +168,7 @@ const styles = StyleSheet.create({
   chipText: {
     color: '#b9dafbff',
     fontWeight: '500',
+    alignItems: 'center',
+    justifyContent:"center",
   },
 });
